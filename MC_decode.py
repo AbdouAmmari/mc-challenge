@@ -1,0 +1,1 @@
+print("".join([chr(len(a)-1)for a in open("message.txt").read().split("C")[:-1]]))
